@@ -4,6 +4,10 @@ on:
   pull_request:
     types:
       opened
+    branches:
+      - master
+      - dev*
+      - feat/*
   push:
     branches:
       - master
